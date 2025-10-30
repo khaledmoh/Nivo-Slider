@@ -1,8 +1,13 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Nivo Slider Demo</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Majestic Developments | Inspired Urban Living</title>
+    <meta name="description" content="Majestic Developments curates landmark communities, luxury residences, and lifestyle destinations across the globe." />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="../themes/default/default.css" type="text/css" media="screen" />
     <link rel="stylesheet" href="../themes/light/light.css" type="text/css" media="screen" />
     <link rel="stylesheet" href="../themes/dark/dark.css" type="text/css" media="screen" />
@@ -11,28 +16,250 @@
     <link rel="stylesheet" href="style.css" type="text/css" media="screen" />
 </head>
 <body>
-    <div id="wrapper">
-        <a href="http://dev7studios.com" id="dev7link" title="Go to dev7studios">dev7studios</a>
+    <header class="top-bar" id="home">
+        <div class="container">
+            <div class="brand">Majestic Developments</div>
+            <nav class="navigation" aria-label="Primary navigation">
+                <button class="nav-toggle" aria-expanded="false" aria-controls="nav-menu">Menu</button>
+                <ul id="nav-menu" class="nav-links">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#communities">Communities</a></li>
+                    <li><a href="#lifestyle">Lifestyle</a></li>
+                    <li><a href="#sustainability">Sustainability</a></li>
+                    <li><a href="#news">News</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
 
+    <section class="hero" aria-labelledby="hero-title">
         <div class="slider-wrapper theme-default">
-            <div id="slider" class="nivoSlider">
-                <img src="images/toystory.jpg" data-thumb="images/toystory.jpg" alt="" />
-                <a href="http://dev7studios.com"><img src="images/up.jpg" data-thumb="images/up.jpg" alt="" title="This is an example of a caption" /></a>
-                <img src="images/walle.jpg" data-thumb="images/walle.jpg" alt="" data-transition="slideInLeft" />
-                <img src="images/nemo.jpg" data-thumb="images/nemo.jpg" alt="" title="#htmlcaption" />
+            <div id="slider" class="nivoSlider" aria-hidden="true">
+                <img src="https://images.unsplash.com/photo-1526481280695-3c46917e81f4?auto=format&fit=crop&w=1600&q=80" alt="Modern skyline with iconic towers" />
+                <img src="https://images.unsplash.com/photo-1520256862855-398228c41684?auto=format&fit=crop&w=1600&q=80" alt="Luxury residential building at dusk" />
+                <img src="https://images.unsplash.com/photo-1529429617124-aee608933f53?auto=format&fit=crop&w=1600&q=80" alt="Waterfront promenade with people walking" />
+                <img src="https://images.unsplash.com/photo-1534351590666-13e3e96b5017?auto=format&fit=crop&w=1600&q=80" alt="Palm-lined boulevard with premium retail" />
             </div>
-            <div id="htmlcaption" class="nivo-html-caption">
-                <strong>This</strong> is an example of a <em>HTML</em> caption with <a href="#">a link</a>. 
+            <div class="hero-overlay">
+                <p class="eyebrow">Global destinations</p>
+                <h1 id="hero-title">Crafting landmarks that define the world&apos;s most dynamic cities</h1>
+                <p class="lead">Explore our collection of signature communities, waterfront residences, and lifestyle destinations inspired by culture, nature, and innovation.</p>
+                <div class="hero-actions">
+                    <a class="btn primary" href="#communities">Explore Communities</a>
+                    <a class="btn ghost" href="#contact">Invest with Us</a>
+                </div>
             </div>
         </div>
+        <div class="metrics" role="list">
+            <div class="metric" role="listitem">
+                <span class="metric-value">95M+</span>
+                <span class="metric-label">Visitors welcomed each year</span>
+            </div>
+            <div class="metric" role="listitem">
+                <span class="metric-value">72+</span>
+                <span class="metric-label">International awards for design</span>
+            </div>
+            <div class="metric" role="listitem">
+                <span class="metric-value">30+</span>
+                <span class="metric-label">Iconic global destinations</span>
+            </div>
+        </div>
+    </section>
 
-    </div>
+    <main>
+        <section class="section" id="communities" aria-labelledby="communities-title">
+            <div class="container">
+                <p class="eyebrow">Featured Communities</p>
+                <h2 id="communities-title" class="section-title">Signature addresses designed for elevated living</h2>
+                <div class="card-grid">
+                    <article class="card">
+                        <div class="card-media" style="background-image: url('https://images.unsplash.com/photo-1494526585095-c41746248156?auto=format&fit=crop&w=1200&q=80');"></div>
+                        <div class="card-content">
+                            <h3>Skyline Residences</h3>
+                            <p>Panoramic city views, world-class wellness, and bespoke hospitality curated for discerning residents.</p>
+                            <a href="#contact" class="text-link">Register interest</a>
+                        </div>
+                    </article>
+                    <article class="card">
+                        <div class="card-media" style="background-image: url('https://images.unsplash.com/photo-1542317854-0d6cc394ed53?auto=format&fit=crop&w=1200&q=80');"></div>
+                        <div class="card-content">
+                            <h3>Harbour Promenade</h3>
+                            <p>Waterfront promenades, signature retail, and urban beach clubs connected by lush parks and art trails.</p>
+                            <a href="#contact" class="text-link">Plan a visit</a>
+                        </div>
+                    </article>
+                    <article class="card">
+                        <div class="card-media" style="background-image: url('https://images.unsplash.com/photo-1468413253725-0d5181091126?auto=format&fit=crop&w=1200&q=80');"></div>
+                        <div class="card-content">
+                            <h3>Oasis Villas</h3>
+                            <p>Private villa enclaves embracing desert landscapes, sustainable materials, and resort-inspired amenities.</p>
+                            <a href="#contact" class="text-link">Discover more</a>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="section muted" id="lifestyle" aria-labelledby="lifestyle-title">
+            <div class="container">
+                <div class="section-header">
+                    <div>
+                        <p class="eyebrow">Lifestyle &amp; Experiences</p>
+                        <h2 id="lifestyle-title" class="section-title">Moments that inspire connection and culture</h2>
+                    </div>
+                    <p class="section-intro">From fine dining and curated art to championship golf and luxury hospitality, our destinations celebrate the spirit of community.</p>
+                </div>
+                <div class="experience-grid">
+                    <div class="experience-item">
+                        <h3>Signature Hospitality</h3>
+                        <p>Five-star hotels and residences managed by world-renowned brands redefine bespoke service and comfort.</p>
+                    </div>
+                    <div class="experience-item">
+                        <h3>Culture &amp; Entertainment</h3>
+                        <p>Immersive galleries, performing arts venues, and global festivals infuse our neighborhoods with energy.</p>
+                    </div>
+                    <div class="experience-item">
+                        <h3>Wellness Journeys</h3>
+                        <p>Holistic wellness centers, serene spas, and innovative fitness concepts designed to restore balance.</p>
+                    </div>
+                    <div class="experience-item">
+                        <h3>Retail Destinations</h3>
+                        <p>Flagship boutiques, artisanal markets, and culinary districts that set new benchmarks for luxury retail.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section" id="sustainability" aria-labelledby="sustainability-title">
+            <div class="container">
+                <div class="two-column">
+                    <div>
+                        <p class="eyebrow">Sustainability</p>
+                        <h2 id="sustainability-title" class="section-title">Building tomorrow&apos;s cities with purpose</h2>
+                        <p>Our sustainability framework is rooted in resilient design, responsible sourcing, and community wellbeing. From carbon-conscious construction to biodiversity preservation, we are committed to shaping future-ready destinations.</p>
+                        <ul class="checklist">
+                            <li>Net-zero ready district cooling and smart energy grids</li>
+                            <li>Green mobility with pedestrian-first streets and e-mobility hubs</li>
+                            <li>Community initiatives empowering local entrepreneurs and artisans</li>
+                        </ul>
+                        <a href="#contact" class="btn primary">Download sustainability report</a>
+                    </div>
+                    <div class="highlight-panel">
+                        <h3>2024 Sustainability Highlights</h3>
+                        <ul>
+                            <li><strong>48%</strong> reduction in operational emissions</li>
+                            <li><strong>2.6M m²</strong> of new public realm delivered</li>
+                            <li><strong>500K</strong> trees planted across masterplans</li>
+                            <li><strong>100%</strong> renewable power for hospitality portfolio</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section muted" id="news" aria-labelledby="news-title">
+            <div class="container">
+                <p class="eyebrow">Latest Stories</p>
+                <h2 id="news-title" class="section-title">Insights &amp; announcements</h2>
+                <div class="news-grid">
+                    <article class="news-card">
+                        <span class="news-tag">Announcement</span>
+                        <h3>Majestic unveils next generation cultural district</h3>
+                        <p>Discover our newest mixed-use destination featuring a museum quarter, waterfront opera house, and creative workspaces.</p>
+                        <a class="text-link" href="#contact">Read more</a>
+                    </article>
+                    <article class="news-card">
+                        <span class="news-tag">Report</span>
+                        <h3>Annual impact report highlights resilient growth</h3>
+                        <p>Strong performance across hospitality, retail, and residential portfolios with a focus on sustainable innovation.</p>
+                        <a class="text-link" href="#contact">Download report</a>
+                    </article>
+                    <article class="news-card">
+                        <span class="news-tag">Event</span>
+                        <h3>Global investor summit returns to Dubai</h3>
+                        <p>Meet our leadership team to explore upcoming investment opportunities and strategic partnerships.</p>
+                        <a class="text-link" href="#contact">Register now</a>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="section cta" id="contact" aria-labelledby="contact-title">
+            <div class="container cta-container">
+                <div>
+                    <p class="eyebrow">Connect with us</p>
+                    <h2 id="contact-title" class="section-title">Let&apos;s design the future together</h2>
+                    <p>Share your aspirations and our advisory team will craft a tailored roadmap across residences, retail, hospitality, or commercial investments.</p>
+                </div>
+                <form class="contact-form" aria-label="Contact form">
+                    <div class="form-group">
+                        <label for="name">Full name</label>
+                        <input type="text" id="name" name="name" placeholder="Alex Morgan" required />
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Business email</label>
+                        <input type="email" id="email" name="email" placeholder="you@company.com" required />
+                    </div>
+                    <div class="form-group">
+                        <label for="interest">Area of interest</label>
+                        <select id="interest" name="interest">
+                            <option value="residential">Residential</option>
+                            <option value="commercial">Commercial</option>
+                            <option value="hospitality">Hospitality</option>
+                            <option value="partnerships">Partnerships</option>
+                        </select>
+                    </div>
+                    <div class="form-group full">
+                        <label for="message">Project vision</label>
+                        <textarea id="message" name="message" rows="4" placeholder="Tell us about your project and timeline"></textarea>
+                    </div>
+                    <button type="submit" class="btn primary">Submit inquiry</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container footer-container">
+            <div>
+                <div class="brand">Majestic Developments</div>
+                <p>Visionary destinations shaped by architecture, culture, and people.</p>
+            </div>
+            <div class="footer-links">
+                <a href="#communities">Communities</a>
+                <a href="#lifestyle">Lifestyle</a>
+                <a href="#sustainability">Sustainability</a>
+                <a href="#news">News</a>
+            </div>
+            <div class="footer-meta">© <span id="year"></span> Majestic Developments. All rights reserved.</div>
+        </div>
+    </footer>
+
     <script type="text/javascript" src="scripts/jquery-1.9.0.min.js"></script>
     <script type="text/javascript" src="../jquery.nivo.slider.js"></script>
     <script type="text/javascript">
-    $(window).load(function() {
-        $('#slider').nivoSlider();
-    });
+        $(window).on('load', function () {
+            $('#slider').nivoSlider({
+                effect: 'fade',
+                pauseTime: 6000,
+                controlNav: false,
+                directionNav: true,
+                animSpeed: 1200,
+                pauseOnHover: false,
+                slices: 10
+            });
+        });
+
+        const toggle = document.querySelector('.nav-toggle');
+        const menu = document.querySelector('#nav-menu');
+        toggle.addEventListener('click', function () {
+            const expanded = this.getAttribute('aria-expanded') === 'true';
+            this.setAttribute('aria-expanded', !expanded);
+            menu.classList.toggle('is-open');
+        });
+
+        document.getElementById('year').textContent = new Date().getFullYear();
     </script>
 </body>
 </html>
