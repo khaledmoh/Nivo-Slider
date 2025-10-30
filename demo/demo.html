@@ -3,11 +3,17 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Majestic Developments | Inspired Urban Living</title>
-    <meta name="description" content="Majestic Developments curates landmark communities, luxury residences, and lifestyle destinations across the globe." />
+    <title>Majestic Developments | Signature Global Destinations</title>
+    <meta
+        name="description"
+        content="Majestic Developments curates landmark destinations, waterfront districts, and luxury residences for discerning residents and investors."
+    />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet"
+    />
     <link rel="stylesheet" href="../themes/default/default.css" type="text/css" media="screen" />
     <link rel="stylesheet" href="../themes/light/light.css" type="text/css" media="screen" />
     <link rel="stylesheet" href="../themes/dark/dark.css" type="text/css" media="screen" />
@@ -16,181 +22,346 @@
     <link rel="stylesheet" href="style.css" type="text/css" media="screen" />
 </head>
 <body>
-    <header class="top-bar" id="home">
-        <div class="container">
-            <div class="brand">Majestic Developments</div>
+    <header class="site-header" id="home">
+        <div class="container header-inner">
+            <a href="#home" class="brand" aria-label="Majestic Developments home">Majestic Developments</a>
             <nav class="navigation" aria-label="Primary navigation">
                 <button class="nav-toggle" aria-expanded="false" aria-controls="nav-menu">Menu</button>
                 <ul id="nav-menu" class="nav-links">
                     <li><a href="#home">Home</a></li>
-                    <li><a href="#communities">Communities</a></li>
-                    <li><a href="#lifestyle">Lifestyle</a></li>
+                    <li><a href="#destinations">Destinations</a></li>
+                    <li><a href="#launches">Launches</a></li>
+                    <li><a href="#experiences">Experiences</a></li>
                     <li><a href="#sustainability">Sustainability</a></li>
-                    <li><a href="#news">News</a></li>
+                    <li><a href="#insights">Insights</a></li>
                     <li><a href="#contact">Contact</a></li>
                 </ul>
             </nav>
+            <a class="header-cta" href="#contact">Enquire</a>
         </div>
     </header>
 
-    <section class="hero" aria-labelledby="hero-title">
-        <div class="slider-wrapper theme-default">
-            <div id="slider" class="nivoSlider" aria-hidden="true">
-                <img src="https://images.unsplash.com/photo-1526481280695-3c46917e81f4?auto=format&fit=crop&w=1600&q=80" alt="Modern skyline with iconic towers" />
-                <img src="https://images.unsplash.com/photo-1520256862855-398228c41684?auto=format&fit=crop&w=1600&q=80" alt="Luxury residential building at dusk" />
-                <img src="https://images.unsplash.com/photo-1529429617124-aee608933f53?auto=format&fit=crop&w=1600&q=80" alt="Waterfront promenade with people walking" />
-                <img src="https://images.unsplash.com/photo-1534351590666-13e3e96b5017?auto=format&fit=crop&w=1600&q=80" alt="Palm-lined boulevard with premium retail" />
-            </div>
-            <div class="hero-overlay">
-                <p class="eyebrow">Global destinations</p>
-                <h1 id="hero-title">Crafting landmarks that define the world&apos;s most dynamic cities</h1>
-                <p class="lead">Explore our collection of signature communities, waterfront residences, and lifestyle destinations inspired by culture, nature, and innovation.</p>
-                <div class="hero-actions">
-                    <a class="btn primary" href="#communities">Explore Communities</a>
-                    <a class="btn ghost" href="#contact">Invest with Us</a>
+    <main>
+        <section class="hero" aria-labelledby="hero-title">
+            <div class="slider-wrapper theme-default">
+                <div id="slider" class="nivoSlider" aria-hidden="true">
+                    <img
+                        src="https://images.unsplash.com/photo-1512453979798-5ea266f8880c?auto=format&fit=crop&w=1600&q=80"
+                        alt="Luxury towers overlooking a marina"
+                    />
+                    <img
+                        src="https://images.unsplash.com/photo-1529429617124-aee608933f53?auto=format&fit=crop&w=1600&q=80"
+                        alt="Waterfront promenade with people walking"
+                    />
+                    <img
+                        src="https://images.unsplash.com/photo-1534351590666-13e3e96b5017?auto=format&fit=crop&w=1600&q=80"
+                        alt="Palm-lined boulevard with premium retail"
+                    />
+                    <img
+                        src="https://images.unsplash.com/photo-1526481280695-3c46917e81f4?auto=format&fit=crop&w=1600&q=80"
+                        alt="Modern skyline with iconic towers"
+                    />
+                </div>
+                <div class="hero-overlay">
+                    <div class="hero-content">
+                        <p class="eyebrow">Global destinations</p>
+                        <h1 id="hero-title">Elevating skylines, shaping signature lifestyles</h1>
+                        <p class="lead">
+                            From waterfront cultural districts to contemporary urban resorts, Majestic Developments crafts
+                            neighbourhoods that become the heartbeat of world-class cities.
+                        </p>
+                        <div class="hero-actions">
+                            <a class="btn primary" href="#destinations">Explore portfolio</a>
+                            <a class="btn ghost" href="#launches">View latest launches</a>
+                        </div>
+                    </div>
+                    <div class="hero-panels" aria-label="Featured projects">
+                        <article class="hero-panel">
+                            <span class="panel-label">Now leasing</span>
+                            <h2>Harbour Promenade</h2>
+                            <p>Premium waterfront residences and a curated retail boulevard overlooking the Marina skyline.</p>
+                            <a class="text-link" href="#contact">Book a private tour</a>
+                        </article>
+                        <article class="hero-panel secondary">
+                            <span class="panel-label">Featured destination</span>
+                            <h3>Opera District</h3>
+                            <p>Iconic arts district anchored by a design-led tower, cultural venues, and luxury hospitality.</p>
+                        </article>
+                    </div>
                 </div>
             </div>
-        </div>
-        <div class="metrics" role="list">
-            <div class="metric" role="listitem">
-                <span class="metric-value">95M+</span>
-                <span class="metric-label">Visitors welcomed each year</span>
-            </div>
-            <div class="metric" role="listitem">
-                <span class="metric-value">72+</span>
-                <span class="metric-label">International awards for design</span>
-            </div>
-            <div class="metric" role="listitem">
-                <span class="metric-value">30+</span>
-                <span class="metric-label">Iconic global destinations</span>
-            </div>
-        </div>
-    </section>
-
-    <main>
-        <section class="section" id="communities" aria-labelledby="communities-title">
-            <div class="container">
-                <p class="eyebrow">Featured Communities</p>
-                <h2 id="communities-title" class="section-title">Signature addresses designed for elevated living</h2>
-                <div class="card-grid">
-                    <article class="card">
-                        <div class="card-media" style="background-image: url('https://images.unsplash.com/photo-1494526585095-c41746248156?auto=format&fit=crop&w=1200&q=80');"></div>
-                        <div class="card-content">
-                            <h3>Skyline Residences</h3>
-                            <p>Panoramic city views, world-class wellness, and bespoke hospitality curated for discerning residents.</p>
-                            <a href="#contact" class="text-link">Register interest</a>
-                        </div>
-                    </article>
-                    <article class="card">
-                        <div class="card-media" style="background-image: url('https://images.unsplash.com/photo-1542317854-0d6cc394ed53?auto=format&fit=crop&w=1200&q=80');"></div>
-                        <div class="card-content">
-                            <h3>Harbour Promenade</h3>
-                            <p>Waterfront promenades, signature retail, and urban beach clubs connected by lush parks and art trails.</p>
-                            <a href="#contact" class="text-link">Plan a visit</a>
-                        </div>
-                    </article>
-                    <article class="card">
-                        <div class="card-media" style="background-image: url('https://images.unsplash.com/photo-1468413253725-0d5181091126?auto=format&fit=crop&w=1200&q=80');"></div>
-                        <div class="card-content">
-                            <h3>Oasis Villas</h3>
-                            <p>Private villa enclaves embracing desert landscapes, sustainable materials, and resort-inspired amenities.</p>
-                            <a href="#contact" class="text-link">Discover more</a>
-                        </div>
-                    </article>
+            <div class="hero-metrics" role="list">
+                <div class="metric" role="listitem">
+                    <span class="metric-value">+42M</span>
+                    <span class="metric-label">Annual visitors welcomed</span>
+                </div>
+                <div class="metric" role="listitem">
+                    <span class="metric-value">38</span>
+                    <span class="metric-label">Landmark destinations worldwide</span>
+                </div>
+                <div class="metric" role="listitem">
+                    <span class="metric-value">1200+</span>
+                    <span class="metric-label">Luxury retail &amp; dining partners</span>
+                </div>
+                <div class="metric" role="listitem">
+                    <span class="metric-value">2045</span>
+                    <span class="metric-label">Net-zero roadmap committed</span>
                 </div>
             </div>
         </section>
 
-        <section class="section muted" id="lifestyle" aria-labelledby="lifestyle-title">
+        <section class="section" id="destinations" aria-labelledby="destinations-title">
             <div class="container">
                 <div class="section-header">
                     <div>
-                        <p class="eyebrow">Lifestyle &amp; Experiences</p>
-                        <h2 id="lifestyle-title" class="section-title">Moments that inspire connection and culture</h2>
+                        <p class="eyebrow">Flagship destinations</p>
+                        <h2 id="destinations-title" class="section-title">Immersive communities that define the skyline</h2>
                     </div>
-                    <p class="section-intro">From fine dining and curated art to championship golf and luxury hospitality, our destinations celebrate the spirit of community.</p>
+                    <p class="section-intro">
+                        Discover waterfront landmarks, cultural quarters, and urban resorts shaped in collaboration with
+                        world-renowned architects and designers.
+                    </p>
+                </div>
+                <div class="destination-grid">
+                    <article class="destination-card">
+                        <div
+                            class="destination-media"
+                            style="background-image: url('https://images.unsplash.com/photo-1459535653751-d571815e906b?auto=format&fit=crop&w=1400&q=80');"
+                        ></div>
+                        <div class="destination-content">
+                            <h3>Skyline Residences</h3>
+                            <p>Bespoke penthouses, wellness lounges, and skyline lounges curated for contemporary city living.</p>
+                            <ul>
+                                <li>Ready-to-move-in one to four-bedroom residences</li>
+                                <li>Signature concierge and private club amenities</li>
+                                <li>Panoramic infinity terraces overlooking the city</li>
+                            </ul>
+                            <a href="#contact" class="text-link">Register your interest</a>
+                        </div>
+                    </article>
+                    <article class="destination-card">
+                        <div
+                            class="destination-media"
+                            style="background-image: url('https://images.unsplash.com/photo-1489515217757-5fd1be406fef?auto=format&fit=crop&w=1400&q=80');"
+                        ></div>
+                        <div class="destination-content">
+                            <h3>Oasis Villas</h3>
+                            <p>Exclusive desert villas with shaded courtyards, botanical parks, and mindful wellness retreats.</p>
+                            <ul>
+                                <li>Architectural villas with custom interior ateliers</li>
+                                <li>Championship golf and equestrian academies</li>
+                                <li>Sustainable cooling and solar innovation</li>
+                            </ul>
+                            <a href="#contact" class="text-link">Discover bespoke living</a>
+                        </div>
+                    </article>
+                    <article class="destination-card">
+                        <div
+                            class="destination-media"
+                            style="background-image: url('https://images.unsplash.com/photo-1494526585095-c41746248156?auto=format&fit=crop&w=1400&q=80');"
+                        ></div>
+                        <div class="destination-content">
+                            <h3>Harbour Promenade</h3>
+                            <p>Curated waterfront district with a lifestyle mall, boardwalk dining, and boutique residences.</p>
+                            <ul>
+                                <li>Luxury marina berths and floating lounges</li>
+                                <li>Art-lined promenades and pop-up galleries</li>
+                                <li>Steps from international hospitality brands</li>
+                            </ul>
+                            <a href="#contact" class="text-link">Plan a discovery visit</a>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="section muted" id="launches" aria-labelledby="launches-title">
+            <div class="container">
+                <div class="section-header">
+                    <div>
+                        <p class="eyebrow">Latest launches</p>
+                        <h2 id="launches-title" class="section-title">Invest in limited release residences</h2>
+                    </div>
+                    <p class="section-intro">
+                        Tailored floor plans, designer finishes, and curated hospitality experiences with flexible payment
+                        structures for global investors.
+                    </p>
+                </div>
+                <div class="launch-grid">
+                    <article class="launch-card">
+                        <span class="launch-tag">Exclusive</span>
+                        <h3>Peninsula Collection</h3>
+                        <p>Water-inspired residences with biophilic interiors and 270° views across the marina skyline.</p>
+                        <dl>
+                            <div>
+                                <dt>Completion</dt>
+                                <dd>Q4 2026</dd>
+                            </div>
+                            <div>
+                                <dt>Starting from</dt>
+                                <dd>$1.2M</dd>
+                            </div>
+                        </dl>
+                        <a class="btn ghost" href="#contact">Download brochure</a>
+                    </article>
+                    <article class="launch-card">
+                        <span class="launch-tag">New release</span>
+                        <h3>Summit Residences</h3>
+                        <p>Vertical resort living with private sky pools, observatory lounge, and Michelin-led dining.</p>
+                        <dl>
+                            <div>
+                                <dt>Completion</dt>
+                                <dd>Q2 2027</dd>
+                            </div>
+                            <div>
+                                <dt>Starting from</dt>
+                                <dd>$950K</dd>
+                            </div>
+                        </dl>
+                        <a class="btn ghost" href="#contact">Schedule a consultation</a>
+                    </article>
+                    <article class="launch-card">
+                        <span class="launch-tag">Limited</span>
+                        <h3>Grand Plaza Lofts</h3>
+                        <p>Double-height lofts overlooking the cultural plaza with flexible live-work configurations.</p>
+                        <dl>
+                            <div>
+                                <dt>Completion</dt>
+                                <dd>Q1 2025</dd>
+                            </div>
+                            <div>
+                                <dt>Starting from</dt>
+                                <dd>$780K</dd>
+                            </div>
+                        </dl>
+                        <a class="btn ghost" href="#contact">Join investor briefing</a>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="section" id="experiences" aria-labelledby="experiences-title">
+            <div class="container">
+                <div class="section-header">
+                    <div>
+                        <p class="eyebrow">Lifestyle &amp; experiences</p>
+                        <h2 id="experiences-title" class="section-title">Where culture, nature, and wellness intersect</h2>
+                    </div>
+                    <p class="section-intro">
+                        Our destinations welcome residents, guests, and visitors with curated hospitality, entertainment,
+                        and wellness journeys.
+                    </p>
                 </div>
                 <div class="experience-grid">
-                    <div class="experience-item">
-                        <h3>Signature Hospitality</h3>
-                        <p>Five-star hotels and residences managed by world-renowned brands redefine bespoke service and comfort.</p>
-                    </div>
-                    <div class="experience-item">
-                        <h3>Culture &amp; Entertainment</h3>
-                        <p>Immersive galleries, performing arts venues, and global festivals infuse our neighborhoods with energy.</p>
-                    </div>
-                    <div class="experience-item">
-                        <h3>Wellness Journeys</h3>
-                        <p>Holistic wellness centers, serene spas, and innovative fitness concepts designed to restore balance.</p>
-                    </div>
-                    <div class="experience-item">
-                        <h3>Retail Destinations</h3>
-                        <p>Flagship boutiques, artisanal markets, and culinary districts that set new benchmarks for luxury retail.</p>
-                    </div>
+                    <article>
+                        <h3>Signature hospitality</h3>
+                        <p>Flagship hotels and branded residences redefine concierge living with immersive guest experiences.</p>
+                    </article>
+                    <article>
+                        <h3>Culture &amp; entertainment</h3>
+                        <p>Opera houses, immersive galleries, and design districts anchor our cultural programming calendar.</p>
+                    </article>
+                    <article>
+                        <h3>Outdoor escapes</h3>
+                        <p>Urban parks, waterfront promenades, and desert sanctuaries offer restorative experiences year-round.</p>
+                    </article>
+                    <article>
+                        <h3>Retail &amp; dining</h3>
+                        <p>From Michelin stars to artisan markets, curated retail brings global brands and local stories together.</p>
+                    </article>
                 </div>
             </div>
         </section>
 
-        <section class="section" id="sustainability" aria-labelledby="sustainability-title">
+        <section class="section highlight" id="sustainability" aria-labelledby="sustainability-title">
+            <div class="container highlight-grid">
+                <div>
+                    <p class="eyebrow">Sustainability</p>
+                    <h2 id="sustainability-title" class="section-title">Designing tomorrow with responsible innovation</h2>
+                    <p>
+                        Majestic Developments is shaping the future of resilient cities through net-zero commitments,
+                        regenerative landscapes, and empowering communities with inclusive growth.
+                    </p>
+                    <ul class="checklist">
+                        <li>Carbon-neutral construction roadmap with circular materiality</li>
+                        <li>Pedestrian-first streets, green transit, and smart mobility hubs</li>
+                        <li>Community academies nurturing local entrepreneurs and artisans</li>
+                    </ul>
+                    <a class="btn primary" href="#contact">Download sustainability report</a>
+                </div>
+                <aside class="highlight-panel" aria-label="2024 sustainability highlights">
+                    <h3>2024 highlights</h3>
+                    <ul>
+                        <li><strong>48%</strong> reduction in operational emissions</li>
+                        <li><strong>2.6M m²</strong> of new activated public realm</li>
+                        <li><strong>500K</strong> native trees cultivated across masterplans</li>
+                        <li><strong>100%</strong> renewable energy hospitality portfolio</li>
+                    </ul>
+                </aside>
+            </div>
+        </section>
+
+        <section class="section" id="insights" aria-labelledby="insights-title">
             <div class="container">
-                <div class="two-column">
+                <div class="section-header">
                     <div>
-                        <p class="eyebrow">Sustainability</p>
-                        <h2 id="sustainability-title" class="section-title">Building tomorrow&apos;s cities with purpose</h2>
-                        <p>Our sustainability framework is rooted in resilient design, responsible sourcing, and community wellbeing. From carbon-conscious construction to biodiversity preservation, we are committed to shaping future-ready destinations.</p>
-                        <ul class="checklist">
-                            <li>Net-zero ready district cooling and smart energy grids</li>
-                            <li>Green mobility with pedestrian-first streets and e-mobility hubs</li>
-                            <li>Community initiatives empowering local entrepreneurs and artisans</li>
-                        </ul>
-                        <a href="#contact" class="btn primary">Download sustainability report</a>
+                        <p class="eyebrow">Insights &amp; stories</p>
+                        <h2 id="insights-title" class="section-title">The latest from Majestic Developments</h2>
                     </div>
-                    <div class="highlight-panel">
-                        <h3>2024 Sustainability Highlights</h3>
-                        <ul>
-                            <li><strong>48%</strong> reduction in operational emissions</li>
-                            <li><strong>2.6M m²</strong> of new public realm delivered</li>
-                            <li><strong>500K</strong> trees planted across masterplans</li>
-                            <li><strong>100%</strong> renewable power for hospitality portfolio</li>
-                        </ul>
-                    </div>
+                    <p class="section-intro">
+                        Explore announcements, design thinking, and investment updates shaping the future of our global
+                        communities.
+                    </p>
                 </div>
-            </div>
-        </section>
-
-        <section class="section muted" id="news" aria-labelledby="news-title">
-            <div class="container">
-                <p class="eyebrow">Latest Stories</p>
-                <h2 id="news-title" class="section-title">Insights &amp; announcements</h2>
                 <div class="news-grid">
                     <article class="news-card">
                         <span class="news-tag">Announcement</span>
-                        <h3>Majestic unveils next generation cultural district</h3>
-                        <p>Discover our newest mixed-use destination featuring a museum quarter, waterfront opera house, and creative workspaces.</p>
-                        <a class="text-link" href="#contact">Read more</a>
+                        <h3>Next-generation cultural district debuts on the waterfront</h3>
+                        <p>
+                            A new creative quarter featuring a signature opera house, innovation labs, and experiential retail.
+                        </p>
+                        <a class="text-link" href="#contact">Read the story</a>
                     </article>
                     <article class="news-card">
                         <span class="news-tag">Report</span>
-                        <h3>Annual impact report highlights resilient growth</h3>
-                        <p>Strong performance across hospitality, retail, and residential portfolios with a focus on sustainable innovation.</p>
-                        <a class="text-link" href="#contact">Download report</a>
+                        <h3>Impact report 2023 highlights resilient growth and ESG milestones</h3>
+                        <p>
+                            Hospitality, retail, and residential portfolios deliver strong performance across global markets.
+                        </p>
+                        <a class="text-link" href="#contact">Download the report</a>
                     </article>
                     <article class="news-card">
                         <span class="news-tag">Event</span>
-                        <h3>Global investor summit returns to Dubai</h3>
-                        <p>Meet our leadership team to explore upcoming investment opportunities and strategic partnerships.</p>
-                        <a class="text-link" href="#contact">Register now</a>
+                        <h3>Global investor summit returns to Dubai in September</h3>
+                        <p>
+                            Engage with our leadership to explore limited release residences and strategic partnerships.
+                        </p>
+                        <a class="text-link" href="#contact">Reserve your seat</a>
                     </article>
                 </div>
             </div>
         </section>
 
         <section class="section cta" id="contact" aria-labelledby="contact-title">
-            <div class="container cta-container">
-                <div>
+            <div class="container contact-grid">
+                <div class="cta-intro">
                     <p class="eyebrow">Connect with us</p>
-                    <h2 id="contact-title" class="section-title">Let&apos;s design the future together</h2>
-                    <p>Share your aspirations and our advisory team will craft a tailored roadmap across residences, retail, hospitality, or commercial investments.</p>
+                    <h2 id="contact-title" class="section-title">Let us shape your next landmark vision</h2>
+                    <p>
+                        Share your aspirations and our advisory team will curate investment opportunities tailored to your
+                        portfolio, from branded residences to mixed-use masterplans.
+                    </p>
+                    <div class="contact-meta">
+                        <div>
+                            <h3>Global office</h3>
+                            <p>Level 42, Majestic Tower<br />Downtown Dubai, UAE</p>
+                        </div>
+                        <div>
+                            <h3>Investor relations</h3>
+                            <a class="text-link" href="mailto:invest@majesticdevelopments.com">invest@majesticdevelopments.com</a>
+                            <p>+971 4 123 4567</p>
+                        </div>
+                    </div>
                 </div>
                 <form class="contact-form" aria-label="Contact form">
                     <div class="form-group">
@@ -221,16 +392,23 @@
     </main>
 
     <footer class="footer">
-        <div class="container footer-container">
+        <div class="container footer-grid">
             <div>
                 <div class="brand">Majestic Developments</div>
                 <p>Visionary destinations shaped by architecture, culture, and people.</p>
             </div>
             <div class="footer-links">
-                <a href="#communities">Communities</a>
-                <a href="#lifestyle">Lifestyle</a>
+                <h3>Explore</h3>
+                <a href="#destinations">Destinations</a>
+                <a href="#launches">Launches</a>
+                <a href="#experiences">Experiences</a>
                 <a href="#sustainability">Sustainability</a>
-                <a href="#news">News</a>
+            </div>
+            <div class="footer-links">
+                <h3>Connect</h3>
+                <a href="mailto:hello@majesticdevelopments.com">hello@majesticdevelopments.com</a>
+                <a href="tel:+97141234567">+971 4 123 4567</a>
+                <a href="#contact">Book a consultation</a>
             </div>
             <div class="footer-meta">© <span id="year"></span> Majestic Developments. All rights reserved.</div>
         </div>
@@ -247,16 +425,32 @@
                 directionNav: true,
                 animSpeed: 1200,
                 pauseOnHover: false,
-                slices: 10
+                slices: 12
             });
         });
 
         const toggle = document.querySelector('.nav-toggle');
         const menu = document.querySelector('#nav-menu');
+        const header = document.querySelector('.site-header');
+        const navLinks = menu.querySelectorAll('a');
+
         toggle.addEventListener('click', function () {
             const expanded = this.getAttribute('aria-expanded') === 'true';
-            this.setAttribute('aria-expanded', !expanded);
+            this.setAttribute('aria-expanded', (!expanded).toString());
             menu.classList.toggle('is-open');
+            document.body.classList.toggle('nav-open');
+        });
+
+        navLinks.forEach((link) =>
+            link.addEventListener('click', () => {
+                menu.classList.remove('is-open');
+                document.body.classList.remove('nav-open');
+                toggle.setAttribute('aria-expanded', 'false');
+            })
+        );
+
+        window.addEventListener('scroll', () => {
+            header.classList.toggle('is-scrolled', window.scrollY > 10);
         });
 
         document.getElementById('year').textContent = new Date().getFullYear();
